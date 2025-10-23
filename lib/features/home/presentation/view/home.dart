@@ -2,12 +2,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../../constants/theming.dart';
-import '../../shared_widgets/bottom_navigation_bar.dart';
-import '../color_view/color_view.dart';
-import '../family_view/family_view.dart';
-import '../number_view/number_view.dart';
-import '../phrase_view/phrase_view.dart';
+import '../../../../core/theme/theming.dart';
+import '../../../../core/shared_widgets/bottom_navigation_bar.dart';
+import '../../../color/presentation/view/color_view.dart';
+import '../../../family/presentation/view/family_view.dart';
+import '../../../number/presentation/view/number_view.dart';
+import '../../../phrase/presentation/view/phrase_view.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});

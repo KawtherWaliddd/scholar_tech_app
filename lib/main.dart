@@ -1,10 +1,8 @@
-
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:scolar/constants/theming.dart';
-import 'package:scolar/presentation/views/home/home.dart';
-import 'package:scolar/presentation/views/splash/splash.dart';
+import 'package:scolar/core/theme/theming.dart';
+import 'package:scolar/features/home/presentation/view/home.dart';
+import 'package:scolar/features/number/presentation/view/number_details.dart';
+import 'package:scolar/features/splash/presentation/view/splash.dart';
 
 main() {
   runApp(ScholarApp());
@@ -23,6 +21,7 @@ class ScholarApp extends StatelessWidget {
       routes: {
         SplashView.id: (context) => SplashView(),
         HomeView.id: (context) => HomeView(),
+        NumberDetails.id: (context) => NumberDetails(),
       },
     );
   }
